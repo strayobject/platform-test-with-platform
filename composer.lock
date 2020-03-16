@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d73ea749b319e24a564304d3f705ce82",
+    "packages": [
+        {
+            "name": "xydk936/eio-ext-ide-helper",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xywf221/eio-ext-ide-helper.git",
+                "reference": "112d7774eeac54aecfe66eef89e21e1014bbbe32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xywf221/eio-ext-ide-helper/zipball/112d7774eeac54aecfe66eef89e21e1014bbbe32",
+                "reference": "112d7774eeac54aecfe66eef89e21e1014bbbe32",
+                "shasum": ""
+            },
+            "require": {
+                "ext-eio": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/eio.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "xydk936",
+                    "email": "993651481@qq.com"
+                }
+            ],
+            "description": "php eio ide tips",
+            "keywords": [
+                "eio",
+                "ide tips"
+            ],
+            "time": "2019-07-05T04:32:34+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "xydk936/eio-ext-ide-helper": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "platform-overrides": {
+        "ext-eio": "1"
+    }
+}
